@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G3020" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Characters" representedClassName="Characters" syncable="YES" codeGenerationType="class">
+        <attribute name="activeskill" optional="YES" attributeType="String"/>
+        <attribute name="attribute" optional="YES" attributeType="String"/>
+        <attribute name="cost" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imagename" optional="YES" attributeType="String"/>
+        <attribute name="leaderskill" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="race" optional="YES" attributeType="String"/>
+        <attribute name="rarity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="series" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Stages" representedClassName="Stages" syncable="YES" codeGenerationType="class">
+        <attribute name="bossimage" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="stageimage" optional="YES" attributeType="String"/>
+        <attribute name="step" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Teams" representedClassName="Teams" syncable="YES" codeGenerationType="class">
+        <attribute name="member1" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="member2" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="member3" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="member4" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="member5" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="member6" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="teamstage" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Stages" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Characters" positionX="-54" positionY="18" width="128" height="193"/>
+        <element name="Teams" positionX="-36" positionY="90" width="128" height="148"/>
+    </elements>
+</model>
